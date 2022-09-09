@@ -23,6 +23,13 @@ ul {
   padding-inline-start: 0;
 }
 
+.site-contact .link::before{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  content: "1";
+}
+
 img{
 display: block;
 min-width: 100%;
