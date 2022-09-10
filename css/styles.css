@@ -23,12 +23,7 @@ ul {
   padding-inline-start: 0;
 }
 
-.site-contact .link::before {
-  width: 10px;
-  height: 10px;
-  background-color: red;
-  content: '1';
-}
+
 
 img {
   display: block;
@@ -128,6 +123,14 @@ header nav {
   margin-left: 50px;
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
+  
+}
+.site-contact .link::before {
+  display: inline-block;
+  width: 10px;
+  height: 30px;
+  background-color: red;
+  content: '1';
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -334,7 +337,28 @@ header nav {
 }
 .team-list .item:nth-child(4n) {
   margin-right: 0;
+  
 }
+.social-links{
+  display:flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+.insta, .twitter, .facebook, .linkedin{
+  width: 44px;
+  height: 44px;
+}
+.insta{
+  background-image: url(/images/Ellipse.svg);
+}
+.twitter{}
+
+.facebook{}
+
+.linkedin{}
 
 .work-heading,
 .team-heading {
