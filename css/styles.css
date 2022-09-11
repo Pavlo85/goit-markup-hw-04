@@ -360,14 +360,37 @@ header nav {
   margin-right: 0;
   
 }
+
 .social-links{
-  display:flex;
-  justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 32px;
-  margin-top: 16px;
-  padding-bottom: 30px;
+display:flex;
+padding: 0;
+margin: 0;
+list-style: none;
 }
+
+.full-icon{
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  display: block;
+  border-radius: 50%;
+  fill: red;
+  background-color:white;
+  
+}
+
+.full-icon:hover{
+ background-color: var(--accent-color);
+}
+.instagram{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+ 
+                
+
+}
+
 .insta, .twitter, .facebook, .linkedin{
   width: 44px;
   height: 44px;
