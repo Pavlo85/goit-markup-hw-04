@@ -90,6 +90,15 @@ img {
   padding-bottom: 32px;
   margin-left: 93px;
 }
+.icon-qualitys{
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 102px;             
+  
+}
 
 .site-nav .link {
   margin-right: 50px;
@@ -120,22 +129,31 @@ header nav {
   margin-left: auto;
 }
 .site-contact .link {
-  margin-left: 50px;
+  margin-left: 30px;
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
   
 }
-.site-contact .link::before {
+.icon-mail{
+ margin-right: 10px;
+ 
+}
+.icon-mail:hover{
+  stroke: var(--accent-color);
+}
+/* .site-contact .link::before {
   display: inline-block;
   width: 10px;
   height: 30px;
   background-color: red;
   content: '1';
-}
+ */
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .site-contact .link:hover,
 .site-contact .link:focus {
   color: var(--accent-color);
@@ -272,7 +290,7 @@ header nav {
   margin-right: 30px;
 
 }
-.qualitys .item::before {
+/* .qualitys .item::before {
   height: 120px;
   display: block;
   content: '' ;
@@ -281,10 +299,13 @@ header nav {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
 }
-.qualitys .item:nth-child(1)::before{
-  background-image: url(/images/WebStudio.svg);
+/* .qualitys .item:nth-child(1)::before{
+  fill: url(./images/icons.svg#icon-mail);
+  background-color: red;
+  
+  ;
 
 }
 .qualitys .item:nth-child(2)::before{
@@ -295,7 +316,7 @@ header nav {
 }
 .qualitys .item:nth-child(4)::before{
   /* background-image: url(/images/WebStudio.svg); */
-}
+} */
 
 
 
