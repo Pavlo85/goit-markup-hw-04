@@ -385,27 +385,14 @@ padding-bottom: 30px;
 .full-icon:hover{
  background-color: var(--accent-color);
 }
-.instagram{
+
+
+.icon{
   display: inline-block;
   height: 20px;
-  width: 20px;
- 
-                
+  width: 20px;}
 
-}
 
-.insta, .twitter, .facebook, .linkedin{
-  width: 44px;
-  height: 44px;
-}
-.insta{
-  background-image: url(/images/Ellipse.svg);
-}
-.twitter{}
-
-.facebook{}
-
-.linkedin{}
 
 .work-heading,
 .team-heading {
