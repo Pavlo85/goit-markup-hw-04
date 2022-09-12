@@ -428,18 +428,21 @@ padding-bottom: 30px;
 .clients-list{
   display: flex;
   gap: 30px;
+  list-style: none;
 }
 
 .client-rect{
   width: 170px;
   height: 92px;
-  background-color: #757575;
+  
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
 }
 
-.clients-logo1{
-  padding-bottom: 23px;
+.client-union1{
+  padding-top: 23px;
 padding-left: 64px;
-  
+
 }
 .footer {
   background-color: #2f303a;
