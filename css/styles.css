@@ -90,7 +90,7 @@ img {
   padding-bottom: 32px;
   margin-left: 93px;
 }
-.icon-qualitys{
+/* .icon-qualitys{
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -98,7 +98,7 @@ img {
   padding-bottom: 25px;
   padding-left: 102px;             
   
-}
+} */
 
 .site-nav .link {
   margin-right: 50px;
@@ -293,13 +293,20 @@ header nav {
   margin-right: 30px;
 
 }
-
-
-
-
-  .qualitys .item:nth-child(4n) {
-  margin-right: 0;
+.qualitis-box{
+  height: 120px;
+  width: 270px;
+  display: inline-block;
+  background: #F5F4FA;
+border-radius: 4px;
 }
+
+
+
+
+
+ 
+
 .qualitys {
   display: flex;
   justify-content: space-between;
@@ -423,10 +430,13 @@ fill: #AFB1B8;}
   display: inline-block;
   border: 1px solid #AFB1B8;
 border-radius: 4px;
+
 }
 
 .client-link{
   fill: #AFB1B8;
+  
+  
 }
 .client-rect:hover{
   border-color: #2196f3;
