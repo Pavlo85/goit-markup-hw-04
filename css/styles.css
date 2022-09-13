@@ -377,7 +377,7 @@ padding-bottom: 30px;
   display: inline-block;
   /* height: 20px;
   width: 20px; */
-fill: #AFB1B8;}
+     fill: #AFB1B8;}
   
   
   .icon:hover{
@@ -492,3 +492,42 @@ border-radius: 4px;
 .footer-contact-mailtel:focus {
   color: var(--accent-color);
 }
+ .footer-flex{
+  display: flex;
+ }
+ .footer-logo{
+  padding-top: 72px;
+  margin-left: 70px;
+ }
+ .footer-links{
+  padding: 0;
+  margin-top: 20px;
+
+ }
+ .full-iconf{
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  display: block;
+  border-radius: 50%;
+ 
+  background: rgba(255, 255, 255, 0.1);
+ }
+
+.full-iconf:hover{
+  background:var(--accent-color);
+}
+
+.full-iconf .icon{
+  fill: #FFFFFF;
+}
+.footer-heading{
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.03em;
+
+
+color: #FFFFFF;
+}
+
