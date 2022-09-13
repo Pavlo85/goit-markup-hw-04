@@ -420,28 +420,31 @@ fill: #AFB1B8;}
 .client-rect{
   width: 170px;
   height: 92px;
-  
+  display: inline-block;
   border: 1px solid #AFB1B8;
 border-radius: 4px;
 }
+
+.client-link{
+  fill: #AFB1B8;
+}
 .client-rect:hover{
   border-color: #2196f3;
+
+}
+
+.client-link:hover{
+  fill: var(--accent-color);
 }
 
 
-.client-union1{
-  padding-top: 23px;
-padding-left: 64px;
-fill: #AFB1B8;
 
 
 
 
 
-}
-.client-union1:hover{
-  fill: #2196f3;
-}
+
+
 .footer {
   background-color: #2f303a;
   padding-bottom: 60px;
