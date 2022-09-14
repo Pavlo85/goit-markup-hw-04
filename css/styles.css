@@ -295,28 +295,13 @@ header nav {
 .qualitys .item {
   min-width: 270px;
   margin-right: 30px;
-
 }
-/* .qualitis-box{
-  height: 120px;
-  width: 270px;
-  display: inline-block;
-  background: #F5F4FA;
-border-radius: 4px;
-} */
-
-
-
-
-
- 
 
 .qualitys {
   display: flex;
- 
-  gap: 30px;
-
+ gap: 30px;
 }
+
 .quality-discription {
   font-family: 'Roboto';
   font-size: 14px;
@@ -379,18 +364,15 @@ padding-bottom: 30px;
 
 .icon{
   display: inline-block;
-
-   fill: #AFB1B8;}
+fill: #AFB1B8;}
   
-  
-  /* .icon:hover{
-    fill: #F5F4FA;
-  } */
+.icon:hover{
+fill: #F5F4FA;}
 
-  .full-icon:hover{
+  .full-icon:hover,
+  .full-icon:focus{
  background-color: var(--accent-color);
-
- fill: #F5F4FA
+fill: #F5F4FA
 }
 
 
@@ -453,16 +435,6 @@ color:#AFB1B8 ;
   color:  #2196f3;
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .footer {
