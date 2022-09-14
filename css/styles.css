@@ -354,20 +354,20 @@ padding-bottom: 30px;
   padding: 12px;
   display: block;
   border-radius: 50%;
-  /* fill: red; */
-  background-color:white;
-  fill: white;
+
+  background-color:#FFFFFF;
+  fill: #AFB1B8;
 }
 
 
 
 
-.icon{
+/* .icon{
   display: inline-block;
-fill: #AFB1B8;}
+fill: #AFB1B8;} */
   
-.icon:hover{
-fill: #F5F4FA;}
+/* .icon:hover{
+fill: #F5F4FA;} */
 
   .full-icon:hover,
   .full-icon:focus{
