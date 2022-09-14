@@ -90,15 +90,18 @@ img {
   padding-bottom: 32px;
   margin-left: 93px;
 }
-/* .icon-qualitys{
+.icon-qualitys{
+  height: 120px;
+  width: 270px;
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 102px;             
-  
-} */
+  padding-left: 102px;              
+ 
+
+}
 
 .site-nav .link {
   margin-right: 50px;
@@ -293,13 +296,13 @@ header nav {
   margin-right: 30px;
 
 }
-.qualitis-box{
+/* .qualitis-box{
   height: 120px;
   width: 270px;
   display: inline-block;
   background: #F5F4FA;
 border-radius: 4px;
-}
+} */
 
 
 
@@ -309,7 +312,9 @@ border-radius: 4px;
 
 .qualitys {
   display: flex;
-  justify-content: space-between;
+ 
+  gap: 30px;
+
 }
 .quality-discription {
   font-family: 'Roboto';
