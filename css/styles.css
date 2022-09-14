@@ -96,10 +96,9 @@ img {
   background-color: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 102px;              
- 
+  display: flex;
+ align-items: center;
+ justify-content: center;
 
 }
 
@@ -360,15 +359,6 @@ padding-bottom: 30px;
 }
 
 
-
-
-/* .icon{
-  display: inline-block;
-fill: #AFB1B8;} */
-  
-/* .icon:hover{
-fill: #F5F4FA;} */
-
   .full-icon:hover,
   .full-icon:focus{
  background-color: var(--accent-color);
@@ -417,7 +407,9 @@ fill: #F5F4FA
 .client-rect{
   width: 170px;
   height: 92px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #AFB1B8;
 border-radius: 4px;
 color:#AFB1B8 ;
@@ -509,8 +501,6 @@ color:#AFB1B8 ;
 font-size: 14px;
 line-height: 1.15;
 letter-spacing: 0.03em;
-
-
 color: #FFFFFF;
 }
 
